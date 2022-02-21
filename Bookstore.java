@@ -1,8 +1,6 @@
-/*  # TASK 7
-	# Compulsory Task 2
+/*  
 	# Bookstore.java
 	# edited by Tintswalo Anicky Makhubele
-	# date:  25 June 2020
 	# Function: This program allows a bookstore clerk to enter new books,update book information,delete books and search specific books from into the database.
 	*/
 
@@ -13,12 +11,12 @@ public class Bookstore {
 
     public static void main(String[] args) {
         try(
-        		// Connect to the library_db database, via the jdbc:mysql: channel on localhost (this PC)
+        	// Connect to the library_db database, via the jdbc:mysql: channel on localhost (this PC)
                 // Use username "otheruser", password "swordfish".
                 Connection connection = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/ebookstore?useSSL=false",
-                        "root",
-                        "Lindokuhle05"
+                        "otheruser",
+                        "swordfish"
                         );
 
         		// Create a direct line to the database for running our queries
