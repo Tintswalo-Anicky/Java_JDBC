@@ -1,8 +1,6 @@
-/*  # TASK 7
-	# Compulsory Task 1
+/*  
 	# Main.java
 	# edited by Tintswalo Anicky Makhubele
-	# date:  23 June 2020
 	# Function: This program shows how to select, insert, update and delete entries in a database.
 	*/
 
